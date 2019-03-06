@@ -1,0 +1,94 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity_" >
+    
+ 	<!-- Background -->
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_margin="10dp"
+	    android:alpha="0.5"
+	    android:contentDescription="@string/image_think_description"
+	    android:src="@drawable/think_background" />
+ 
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+		<RelativeLayout 
+		    android:id="@+id/quote_detail"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="16dp" >
+		
+		    <ImageView
+		        android:id="@+id/image_quote_mark_left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:contentDescription="@string/image_quote_description"
+		        android:src="?attr/quoteMarkLeftSrc" />
+		
+		    <TextView
+		        android:id="@+id/text_quote_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		
+		        android:textSize="20sp"
+		        
+		        android:layout_below="@+id/image_quote_mark_left"
+		        android:layout_marginLeft="12dp"
+		        android:layout_marginRight="12dp"
+		        android:textIsSelectable="true" />
+		
+		    <ImageView
+		        android:id="@+id/image_quote_mark_right"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_below="@+id/text_quote_text"
+		        android:contentDescription="@string/image_quote_description"
+		        android:src="?attr/quoteMarkRightSrc" />
+		
+		    <TextView
+		        android:id="@+id/text_quote_author"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+			    android:textSize="16sp"
+		        android:layout_alignParentRight="true"
+		        android:layout_below="@+id/image_quote_mark_right"
+		        android:layout_marginRight="14dp"
+		        android:layout_marginTop="30dp"
+		        android:textIsSelectable="false" />
+		
+		    <TextView
+		        android:id="@+id/text_quote_reference"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+			    android:textSize="16sp"
+		        android:layout_below="@+id/text_quote_author"
+		        android:layout_toLeftOf="@+id/text_quote_author"
+		        android:textIsSelectable="false" />
+		
+		    <TextView
+		        android:id="@+id/text_quote_category"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+			    android:textSize="16sp"
+		        android:layout_alignBaseline="@+id/text_quote_reference"
+		        android:layout_alignBottom="@+id/text_quote_reference"
+		        android:layout_alignRight="@+id/text_quote_author"
+		        android:textIsSelectable="false" 
+		        android:layout_marginBottom="10dp"/>
+		
+		</RelativeLayout>
+	
+	</ScrollView>
+
+</RelativeLayout>

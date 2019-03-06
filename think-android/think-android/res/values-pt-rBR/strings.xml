@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">think</string>
+    <string name="separator"> - </string>
+    
+    <string name="message_actual_update">A cada 1 hora</string>
+    <string name="message_light">Claro</string>
+    <string name="message_dark">Escuro</string>
+    
+    <string name="message_blue">Azul</string>
+    <string name="message_green">Verde</string>
+    <string name="message_red">Vermelho</string>
+    <string name="message_purple">Roxo</string>
+    <string name="message_yellow">Amarelo</string>
+    <string name="message_orange">Laranja</string>
+    <string name="message_transparent">Transparente</string>
+    
+    <string name="recents">Recentes</string>
+    <string name="favorites">Favoritas</string>
+    <string name="authors">Autores</string>
+    <string name="categories">Categorias</string>
+    <string name="quote">Citar</string>
+    <string name="configurations">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="search_hint">Buscar Citações e Autores</string>
+    
+    <string name="changing_quote_color">Mudar cores das citações</string>
+    <string name="changing_update_time">Mudar tempo entre atualizações</string>
+    <string name="changing_theme">Mudar tema do aplicativo</string>
+    <string name="changing_language">Mudar idioma de citações</string>
+    
+    <string name="all_quotes">Todas as Citações</string>
+    <string name="only_new_quotes">Apenas Novas Citações</string>
+    <string name="cancel">Cancelar</string>
+    
+    <string name="button_share_description">Compartilhar essa Citação</string>
+    <string name="button_favorite_description">Adicionar aos Favoritos</string>
+    <string name="button_unfavorite_description">Remover dos Favoritos</string>
+    
+    <string name="image_quote_description">Aspas</string>
+    <string name="image_category_description">Categoria</string>
+    <string name="image_reference_description">Referência</string>
+    <string name="image_author_description">Autor</string>
+    <string name="image_think_description">Think</string>
+    
+    
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_favorite">Adicionar a Favoritos</string>
+    <string name="menu_unfavorite">Remover dos Favoritos</string>
+    
+    <string name="menu_new">Nova Citação</string>
+    <string name="menu_random">Citação Aleatória</string>
+    <string name="menu_refresh">Atualizar</string>
+    
+    <string name="text_share_subject">Citação do Think</string>
+    <string name="text_share_title">Compartilhar</string>
+    
+    <string name="text_configuration_languages">Idiomas</string>
+    <string name="text_configuration_update">Atualizações</string>
+    <string name="switch_configuration_automatic_updates">Atualizações Automáticas</string>
+    <string name="text_configuration_updates">Horário de Atualização</string>
+    <string name="text_configuration_theme">Tema</string>
+    <string name="text_configuration_themes">Mudar Tema</string>
+    <string name="text_configuration_colorquotes">Cor das Citações</string>
+    <string name="text_configuration_about">Sobre</string>
+    <string name="text_configuration_policy">Política de Drivacidade</string>
+    <string name="text_configuration_about_think">Sobre Think</string>
+    <string name="text_configuration_version">Versão 0.0.1-SNAPSHOT</string>
+    
+    <string name="text_about_about">Think é uma app móvel para compartilhar e receber milhares de citações interessantes de grandes pensadores, de literatura, cinema e jogos. Você pode organizar suas citações favoritas e compartilhá-las com seus amigos nas redes sociais. As citações tem suas fontes verificadas, impedindo que citações falsas (ou atribuídas erroneamente) sejam adicionadas. Think está disponível em várias plataformas e idiomas.</string>
+	<string name="text_about_team">Equipe</string>
+    <string name="text_about_rafael">Rafael Rabelo Itajubá</string>
+    <string name="text_about_rafael_details">Desenvolvedor</string>
+    <string name="text_about_lais">Lais Munhoz Mastelari</string>
+    <string name="text_about_lais_details">Designer</string>
+    <string name="text_about_greetings_title">Saudações!</string>
+    <string name="text_about_greetings">Esse app foi feito pra ela, que gosta mais de Android que eu.</string>
+    
+    <string name="text_error_no_quotes">Desculpe, não há citações novas.</string>
+    <string name="text_error_no_fav_quotes">Você não possui citações em seus Favoritos.</string>
+    
+    <string-array name="array_string_update_time">
+        <item >1</item>
+        <item >3</item>
+        <item >6</item>
+        <item >12</item>
+        <item >24</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_think">#00a69c</color>
+    
+    <color name="blue_think">#00a69c</color>
+    <color name="green_think">#3cb44a</color>
+    <color name="red_think">#be1e2d</color>
+    <color name="yellow_think">#f6921e</color>
+    <color name="orange_think">#f05a28</color>
+    <color name="purple_think">#9e1f63</color>
+    
+    <color name="background_dark">#231f20</color>
+    <color name="background_light">#e6e7e8</color>
+    
+    <color name="background_dark_transparent">#a0231f20</color>
+    <color name="background_light_transparent">#a0e6e7e8</color>
+    
+    <color name="background_tab_dark">#414042</color>
+    <color name="background_tab_light">#d1d3d4</color>
+    
+    <color name="foreground_dark">#ffffff</color>
+    <color name="foreground_light">#000000</color>
+</resources>

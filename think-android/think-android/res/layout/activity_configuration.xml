@@ -1,0 +1,237 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ConfigurationActivity_" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	
+	    <!-- Category Updates -->
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_configuration_update"
+	    	android:layout_marginTop="10dp"
+	    	android:layout_marginBottom="10dp"
+	    	android:paddingLeft="5dp"
+	        android:textColor="#ffffff"
+	        android:background="@color/main_think"
+	        style="?android:attr/textAppearanceMedium"/>
+	
+	    <Switch
+	        android:id="@+id/switch_update"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:checked="true"
+	        android:text="@string/switch_configuration_automatic_updates"
+	        android:paddingLeft="10dp"
+	        android:onClick="click_switchUpdate" />
+	
+	    
+	    <View android:background="#bdbdbd" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="1dp"
+	        android:layout_margin="10dp"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:onClick="click_textUpdates"
+	        android:orientation="vertical"
+	        android:background="@drawable/selectable_background_think">
+	        
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/text_configuration_updates"
+		    	android:layout_marginLeft="10dp"
+		        style="?android:attr/textAppearanceMedium"/>
+		
+		    <TextView
+		        android:id="@+id/text_actual_update"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textIsSelectable="false"
+		        android:enabled="false"
+		    	android:layout_marginLeft="10dp"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	    </LinearLayout>	
+	    
+	    <View android:background="#bdbdbd" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="1dp"
+	        android:layout_margin="10dp"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:onClick="click_textLanguages"
+	        android:orientation="vertical"
+	        android:background="@drawable/selectable_background_think">
+	        
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/text_configuration_languages"
+		    	android:layout_marginLeft="10dp"
+		        style="?android:attr/textAppearanceMedium"/>
+		
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:clickable="false"
+	        	android:orientation="horizontal"
+			    	android:layout_marginLeft="10dp">
+		        
+			    <ProgressBar
+			        android:id="@+id/progress_bar_language"
+			        android:layout_width="15dp"
+			        android:layout_height="15dp"
+			        android:layout_margin="3dp" />
+			    
+			    <TextView
+			        android:id="@+id/text_actual_language"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="false"
+			        android:enabled="false"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+			    
+		    </LinearLayout>
+	    
+	    </LinearLayout>
+	    
+	    <!-- Category Theme -->
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_configuration_theme"
+	    	android:layout_marginTop="10dp"
+	    	android:layout_marginBottom="10dp"
+	    	android:paddingLeft="5dp"
+	        android:textColor="#ffffff"
+	        android:background="@color/main_think"
+	        style="?android:attr/textAppearanceMedium"/>
+	
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:onClick="click_textThemes"
+	        android:orientation="vertical"
+	        android:background="@drawable/selectable_background_think">
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/text_configuration_themes"
+		    	android:layout_marginLeft="10dp"
+		        style="?android:attr/textAppearanceMedium"/>
+		
+		    <TextView
+		        android:id="@+id/text_actual_theme"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textIsSelectable="false"
+		        android:enabled="false"
+		    	android:layout_marginLeft="10dp"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    
+	    </LinearLayout>
+	    
+	    <View android:background="#bdbdbd" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="1dp"
+	        android:layout_margin="10dp" 
+	        android:paddingLeft="10dp"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:onClick="click_textColorQuotes"
+	        android:orientation="vertical"
+	        android:background="@drawable/selectable_background_think">
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/text_configuration_colorquotes"
+		    	android:layout_marginLeft="10dp"
+		        style="?android:attr/textAppearanceMedium"/>
+		
+		    <TextView
+		        android:id="@+id/text_actual_color_quote"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textIsSelectable="false"
+		        android:enabled="false"
+		    	android:layout_marginLeft="10dp"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	    </LinearLayout>
+	    
+	    <!-- Category About -->
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_configuration_about"
+	    	android:layout_marginTop="10dp"
+	    	android:layout_marginBottom="10dp"
+	    	android:paddingLeft="5dp"
+	        android:textColor="#ffffff"
+	        android:background="@color/main_think"
+	        style="?android:attr/textAppearanceMedium" />
+	  
+	    <TextView
+	        android:id="@+id/text_configuration_policy"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_configuration_policy"
+	        android:paddingLeft="10dp" 
+	        android:clickable="true"
+	        android:background="@drawable/selectable_background_think"
+	        android:onClick="click_textPolicy"
+	        style="?android:attr/textAppearanceMedium"/>
+	
+	    <View android:background="#bdbdbd" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="1dp"
+	        android:layout_margin="10dp"/>
+	    
+	    <TextView
+	        android:id="@+id/text_configuration_about"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_configuration_about_think"
+	        android:paddingLeft="10dp"
+	        android:clickable="true"
+	        android:onClick="click_textAboutThink"
+	        android:background="@drawable/selectable_background_think"
+	        style="?android:attr/textAppearanceMedium"/>
+	
+	    <View android:background="#bdbdbd" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="1dp"
+	        android:layout_margin="10dp"/>
+	    
+	    <TextView
+	        android:enabled="false"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_configuration_version"
+	        android:paddingLeft="10dp"
+	        style="?android:attr/textAppearanceMedium"/>
+	    
+	</LinearLayout>
+
+
+</ScrollView>

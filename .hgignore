@@ -1,0 +1,6 @@
+# use glob syntax
+syntax: glob
+
+.metadata/
+RemoteSystemsTempFiles/
+Printscreen/Thumbs.db

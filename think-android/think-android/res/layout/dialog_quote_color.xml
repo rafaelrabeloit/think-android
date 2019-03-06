@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+	    
+	    <ImageButton
+	        android:id="@+id/image_think_transparent"
+	        android:padding="3dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/message_transparent"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_transparent" 
+	        android:tag="color"
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+	
+	    <ImageButton
+	        android:id="@+id/image_think_blue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:contentDescription="@string/message_blue"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_blue"
+	        android:tag="color" 
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+	    
+	    <ImageButton
+	        android:id="@+id/image_think_green"
+	        android:padding="3dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/message_green"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_green"
+	        android:tag="color" 
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+	    
+	    <ImageButton
+	        android:id="@+id/image_think_orange"
+	        android:padding="3dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/message_orange"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_orange" 
+	        android:tag="color"
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+	    
+	    <ImageButton
+	        android:id="@+id/image_think_yellow"
+	        android:padding="3dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/message_yellow"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_yellow" 
+	        android:tag="color"
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+	    
+	    <ImageButton
+	        android:id="@+id/image_think_red"
+	        android:padding="3dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/message_red"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_red"
+	        android:tag="color" 
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+	    
+	    <ImageButton
+	        android:id="@+id/image_think_purple"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:contentDescription="@string/message_purple"
+	        android:background="@drawable/selectable_background_think"
+	        android:src="@drawable/think_purple"
+	        android:tag="color" 
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
